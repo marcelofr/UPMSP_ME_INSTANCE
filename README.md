@@ -7,8 +7,7 @@ We have two instances types:
 
 Each instance is a text file with the following format:
 
------------------------begin file---------------------
-
+```
 n 6
 m 2
 n_day 1
@@ -60,8 +59,7 @@ setup
 5	3	5	0	3	4	
 5	1	6	6	0	5	
 2	5	6	5	5	0
-
------------------------end file---------------------
+```
 
 in which:
 -'n' is the number of jobs;
