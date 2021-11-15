@@ -2,8 +2,8 @@
 Instances for the unrelated parallel machine scheduling problem with sequence-dependent setup times with objectives of minimizing the makespan and total energy cost under time-of-use electricity price.
 
 We have two instances types:
--Set 1 consisting of instances with up to 10 jobs and up to two machines;
--Set 2 consisting of instances with up to 750 jobs and up to 20 machines.
+- Set 1 consisting of instances with up to 10 jobs and up to two machines;
+- Set 2 consisting of instances with up to 750 jobs and up to 20 machines.
 
 Each instance is a text file with the following format:
 
