@@ -67,13 +67,13 @@ in which:
 - **n_day** is the number of days;
 - **hl** is the number of intervals in the planning horizon;
 - **o** is the number of operation mode;
-- **rate_in_peak** is the energy tax in peak hour ($/kwh);
-- **rate_off_peak** is the energy tax off peak hour ($/kwh);
+- **rate_in_peak** is the energy price in peak hour ($/kwh);
+- **rate_off_peak** is the energy price off peak hour ($/kwh);
 - **max_cost** is the limit value for makespan;
 - **peak_start** is a set containing the peak hours start for each day of the planning horizon. In which, each line represents one day;
 - **peak_end** is a set containing the peak hours end for each day of the planning horizon. In which, each line represents one day;
 - **v** is the set containing the multiplication factors that relates the operation mode to the job execution speed. In which, each line is related the a operation mode;
 - **lambda** is the set containing the multiplication factors that relates the operation mode to the energy consumption. In which, each line is related the a operation mode;
-- **pi** is the set containing the consumption of each machine. In which, each line is related the a machine;
+- **pi** is the set containing the consumption of each machine. In which, each line is related the a machine (kw);
 - **processing** is the set containing the processing time of each job. In which, each line represents the job j, and each column represents the machine i;
 - **setup** is the set containing the setup time between all pair of jobs in each machine. In which, each line represents the current job i, and each column represents the next job k, and each block represents the machine i.
